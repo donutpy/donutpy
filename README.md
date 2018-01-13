@@ -3,5 +3,5 @@ Fokku software for PC.
 
 ## FOKKU CLI
 ```
-[work progessing]
+[work progressing]
 ```
