@@ -1,4 +1,4 @@
-import tail
+import donutpy
 
 tail.initiate()
 tail.buildPages()
