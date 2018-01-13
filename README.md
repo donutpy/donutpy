@@ -1,2 +1,2 @@
-# tail
-Fokku Tail Project
+# Fokku v1.0.3: Tail
+Fokku software for PC.
