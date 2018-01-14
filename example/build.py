@@ -1,4 +1,4 @@
 import donutpy
 
-tail.initiate()
-tail.buildPages()
+donutpy.initiate()
+donutpy.buildPages()
