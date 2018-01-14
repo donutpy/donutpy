@@ -28,4 +28,4 @@ def buildPages():
       d = json.loads(open(file,"r"))
       for page in glob.glob("./page/*.py"):
         x = open(page[:-3] + ".cgi",w+)
-        exec(compile("import cgi as donut\n" + open(page,"r").read().format(*d)))
+        exec(compile("import cgi as donut\nGET={} args=os.getenv(\"QUERY_STRING\").split('&')\n for arg in args: \nt=arg.split('=') \nif len(t)>1: k,v=arg.split('='); GET[k]=v\n" + open(page,"r").read().format(*d)))
