@@ -2,6 +2,7 @@ import os
 import util.getarguments
 import sys
 import glob
+import json
 from util.getarguments import *
 
 def initiate():
